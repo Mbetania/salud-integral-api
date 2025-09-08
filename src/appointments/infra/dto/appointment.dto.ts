@@ -1,6 +1,6 @@
 export interface AppointmentInDto {
   specialty: string;
-  proffesional: string;
+  professional: string;
   day: string;
   hour: string;
   patientId: string;

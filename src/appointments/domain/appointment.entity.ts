@@ -7,7 +7,7 @@ export enum AppoimentState {
 export interface AppoimentProps {
   id: string;
   patientId: string;
-  proffesionalId: string;
+  professionalId: string;
   specialty: string;
   day: string;
   hour: string;
@@ -20,13 +20,13 @@ export class Appointment {
   get id(): string {
     return this.props.id;
   }
-  get proffesionalId(): string {
-    return this.props.proffesionalId;
+  get professionalId(): string {
+    return this.props.professionalId;
   }
   get patientId(): string {
     return this.props.patientId;
   }
-  get dia(): string {
+  get day(): string {
     return this.props.day;
   }
   get hour(): string {
